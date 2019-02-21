@@ -9,7 +9,7 @@ def load_stock_data():
     stocks = ['INVE-B.ST']
 
     # Name of file to save data within
-    file_name = "eod_data.p"
+    file_name = "eod_data.pickle"
 
     # Load file if it exists, otherwise, collect data from yahoo
     if os.path.exists(file_name):

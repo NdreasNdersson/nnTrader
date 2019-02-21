@@ -1,5 +1,7 @@
 # User added
 .idea/
+*.hdf5
+*.pickle
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
